@@ -1,4 +1,4 @@
-# frontend-engineering-playbook: 
+# UI-playbook: 
 My frontend engineering learning journey focused on HTML, CSS, SCSS, accessibility, responsive design, and modern UI development, from fundamentals to advanced concepts, featuring hands-on examples, real-world projects, performance optimization, and clean, maintainable code following industry best practices.
 
 Goals: 
