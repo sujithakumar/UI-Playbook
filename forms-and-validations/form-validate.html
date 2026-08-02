@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Validation</title>
+</head>
+
+<body>
+    <form action="/submit" method="POST" novalidate>
+
+        User name: <input type="text" name="username" placeholder="Enter your username" required autocomplete="off"
+            maxlength="15" minlength="5">
+        <br> <br>
+        Email: <input type="email" name="email" placeholder="Enter your email" required autofocus size="30">
+        <br> <br>
+        Age: <input type="number" name="age" placeholder="30" min="25" max="35" required value="30">
+        <br> <br>
+        Department: <input type="text" name="department" value="Development" readonly>
+        <br> <br>
+        Branch: <input type="text" name="branch" value="UI/UX" disabled>
+        <br> <br>
+        Feedback: <textarea name="feedback" placeholder="Enter your feedback" required></textarea>
+        <br> <br>
+        Phone: <input type="tel" id="phone" name="phone" autocomplete="tel">
+        <br><br>
+        <div>
+            <p><mark> The buttons will submit the form without validation </mark></p>
+            <br><br>
+            <button type="submit">Submit</button> &nbsp; takes novalidate attribute from form tag 
+            <br><br>
+            <button type="submit" formnovalidate>Submit without Validation</button>&nbsp; takes formnovalidate attribute from this button
+            <br><br>
+             <button type="button" onclick="alert('Form submitted!')">Custom Action - prevents default submission</button>
+        </div>
+    </form>
+
+</body>
+
+</html>

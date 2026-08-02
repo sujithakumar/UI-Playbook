@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Input- attributes</title>
+</head>
+
+<body>
+    <form action="/submit" method="POST">
+        User name: <input type="text" name="username" placeholder="Enter your username" required autocomplete="off"
+            maxlength="15" minlength="5">
+        <br> <br>
+        Email: <input type="email" name="email" placeholder="Enter your email" required autofocus size="30">
+        <br> <br>
+        Age: <input type="number" name="age" placeholder="30" min="25" max="35" required value="30">
+        <br> <br>
+        Department: <input type="text" name="department" value="Development" readonly>
+        <br> <br>
+        Branch: <input type="text" name="branch" value="UI/UX" disabled>
+        <br> <br>
+        Feedback: <textarea name="feedback" placeholder="Enter your feedback" required></textarea>
+        <br> <br>
+        Phone: <input type="tel" id="phone" name="phone" autocomplete="tel">
+        <br><br>
+        <h2>Meeting Notes</h2>
+        <div contenteditable="true">
+            Click here and start typing your meeting notes...
+        </div>
+    </form>
+
+</body>
+
+</html>

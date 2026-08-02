@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Special Validation</title>
+</head>
+
+<body>
+    <hr>
+    <h3>Registration Form</h3>
+    <hr>
+    <form action="/submit-feedback" method="POST">
+        <p>
+            <label for="salary">Expected Salary</label><br>
+            <input type="number" id="salary" name="salary" step="1000" value="1000">
+        </p>
+
+
+        <p>
+            <label for="username">Username - default error message</label><br>
+            <input type="text" id="username" name="username" pattern="[A-Za-z]{5,10}">
+        </p>
+        <p>
+            <label for="username">Username - default error message</label><br>
+            <input type="text" id="username" name="username" pattern="[A-Za-z]{5,10}"
+                title="Username should be 5-10 characters long and contain only letters.">
+        </p>
+
+        <p>
+            <label for="phone">Phone Number</label><br>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="9876543210">
+        </p>
+
+        <p>
+            <label for="resume">Upload Resume (PDF)</label><br>
+            <input type="file" id="resume" name="resume" accept=".pdf">
+        </p>
+
+
+        <p>
+            <label for="resume">Upload Multiple Resume (PDF)</label><br>
+            <input type="file" id="resume" name="resume" multiple>
+        </p>
+
+        <p>
+            <strong>Skills</strong><br>
+            <input type="checkbox" id="html" name="skills" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="checkbox" id="css" name="skills" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="checkbox" id="javascript" name="skills" value="JavaScript">
+            <label for="javascript">JavaScript</label><br>
+            <input type="checkbox" id="angular" name="skills" value="Angular" checked>
+            <label for="angular">Angular</label>
+        </p>
+        
+        <p>
+            <input type="checkbox" id="terms" name="terms" checked>
+            <label for="terms">
+                I agree to the Terms &amp; Conditions
+            </label>
+        </p>
+
+
+        <button type="submit">Submit Feedback</button>
+    </form>
+
+</body>
+
+</html>

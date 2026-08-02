@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form Input- advanced</title>
+</head>
+
+<body>
+    <form action="/submit-feedback" method="POST">
+        <fieldset>
+            <legend>Employee Profile Form</legend>
+
+            <div>
+                <label for="empId">Employee ID:</label>
+                <input type="hidden" id="empId" name="empId" value="EMP12345">
+            </div>
+
+            <div>
+                <label for="age">Employee Age:</label>
+                <input type="number" id="age" name="age" min="18" max="65">
+            </div>
+
+            <div>
+                <label for="level">Experience Level:</label>
+                &nbsp;
+                Beginner
+                <input type="range" id="level" name="level" min="1" max="10" step="1">
+                Expert
+            </div>
+           
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+            </div>
+               
+            <div>
+                <label for="appointment">Appointment Time:</label>
+                <input type="time" id="appointment" name="appointment">
+            </div>
+
+             <div>
+                <label for="schedule">Appointment Schedule:</label>
+                <input type="datetime-local" id="schedule" name="schedule">
+            </div>
+           
+            <div>
+                <label for="woj">Preferred Week of Joining:</label>
+                <input type="week" id="woj" name="woj">
+            </div>
+           
+            <div>
+                <label for="color">Theme color:</label>
+                <input type="color" id="color" name="color">
+            </div>
+            <div>
+                <label for="resume">Upload resume:</label>
+                <input type="file" multiple id="resume" name="resume">
+            </div>
+            
+        </fieldset>
+       
+        <button type="submit">Submit Form</button>
+    </form>
+
+</body>
+
+</html>
