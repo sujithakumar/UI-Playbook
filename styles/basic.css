@@ -1,0 +1,30 @@
+*{
+    background-color: paleturquoise;
+    font-size: 20px;
+}
+
+#introduction {
+    color: red;
+}
+
+p{
+    color : white
+}
+.description{
+    color: green;
+}
+
+#description {
+    color: blue;
+}
+
+p{
+    color : white
+}
+
+
+div,span{
+    border : 2px solid black;
+    padding : 10px;
+}
+
