@@ -1,0 +1,36 @@
+* {
+    margin: 10px
+}
+
+
+/* Decendant selector - space 
+Select every <p> that is anywhere inside .content.
+*/
+.content p {
+    border: 1px solid red;
+}
+
+/* Child selector - > 
+Select only <p> elements that are direct children of .content.
+*/
+.content>p {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+/* Adjacent sibling selector - +
+Select the <p> that comes immediately after .content.
+*/
+.content+p {
+    text-decoration: underline;
+    color: green;
+    font-size: 20px;
+}
+
+/* General sibling selector - ~
+Select all matching <p> elements that come after .content and share the same parent.
+*/
+.content~p {
+    background-color: lightblue;
+}
+

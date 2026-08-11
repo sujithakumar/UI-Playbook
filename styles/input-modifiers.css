@@ -1,0 +1,21 @@
+  body{
+    margin:10px;
+    padding:20px;
+    border: 20px solid turquoise;
+  }
+  
+ input:focus{
+    background-color: lightblue;
+  }
+  
+  input:disabled{
+    background-color: lightgray;
+  }
+  
+  input:required{
+    border: 2px solid red;
+  }
+  
+  input:optional{
+    border: 2px solid green;
+  }
