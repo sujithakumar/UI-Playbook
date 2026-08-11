@@ -1,0 +1,50 @@
+.container, a{
+    margin:10px;
+    padding:20px;
+    border: 2px solid yellow;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+p[title]{
+    color:green;
+}
+
+p[title="Another title"]{
+    color:orange;
+}
+
+p[class~="feature"]{
+    text-decoration: underline;
+}
+
+
+p[class*="feature"]{
+    color: pink;
+}
+
+a[href^="http"]{
+background-color: lightblue;
+}
+
+a[href^="https"]{
+background-color: yellow;
+}
+
+
+a[href$=".com"]{
+   font-size: 20px;
+}
+
+div[class|="two"]{
+    background-color: lightgreen;
+}
+
+div[class|="one"]{
+    background-color: turquoise;
+}
+
+button[data-action="delete"]{
+    background-color: red;
+    color: white;
+}
