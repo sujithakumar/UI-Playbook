@@ -1,21 +1,55 @@
-  body{
-    margin:10px;
-    padding:20px;
+  body {
+    margin: 10px;
+    padding: 20px;
     border: 20px solid turquoise;
   }
-  
- input:focus{
+
+  input:focus {
     background-color: lightblue;
   }
-  
-  input:disabled{
+
+  input:disabled {
     background-color: lightgray;
   }
-  
-  input:required{
-    border: 2px solid red;
+
+  input:required {
+    BOX-SHADOW: 0 0 15px red;
   }
-  
-  input:optional{
-    border: 2px solid green;
+
+
+  input:optional {
+    box-shadow: 0 0 5px blue;
+  }
+
+  input:checked {
+    height: 25px;
+    width: 25px;
+  }
+
+  imput:enabled{
+     height: 25px;
+    width: 25px;
+  }
+
+  input:in-range{
+    color: green;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  input:out-of-range{
+    color: red;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  input:valid{
+    color: green;
+    font-weight: bold;
+  }
+
+  input:invalid{
+    color: red;
+    font-weight: bold;
+    font-size: 30px;
   }

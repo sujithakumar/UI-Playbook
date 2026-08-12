@@ -1,0 +1,23 @@
+:root {
+    font-family: timesnew-roman, sans-serif;
+    font-size: 16px;
+}
+
+
+p:lang(fr) {
+    background-color: lightgreen;
+}
+
+
+div:empty {
+    width: 200px;
+    height: 50px;
+    background-color: lightgray;
+}
+
+.items p:not(.highlight) {
+    color: gray;
+    font-style: italic;
+    font-size: 14px;
+}
+
