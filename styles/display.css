@@ -1,0 +1,60 @@
+body {
+    margin: 30px;
+}
+
+body>div {
+    margin-top: 10px;
+    padding: 20px;
+    width: 300px;
+    border: 3px solid red;
+}
+
+.block>div {
+    padding: 10px;
+    Margin: 5px;
+    border: 2px solid yellow
+}
+
+.inline>span {
+    padding: 10px;
+    Margin: 5px;
+    border: 2px solid pink;
+}
+
+.inline-block>span{
+     padding: 10px;
+    Margin: 5px;
+    border: 2px solid palegreen;
+    display: inline-block;
+}
+
+.visibility span{
+    border:3px solid pink;
+    padding:5px;
+}
+
+.none{
+    display: none;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.opacity0{
+    opacity: 0;
+}
+
+.opacity10{
+    opacity: 1;
+}
+
+.opacity5{
+    opacity: 0.5;
+}
+
+.overflow{
+    height:100px;
+    width:100px;
+   overflow: scroll;
+}
