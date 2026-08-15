@@ -29,3 +29,23 @@ li:nth-last-child(2) {
 li:nth-last-child(2n) {
     background: lightgrey;
 }
+
+
+p:first-of-type {
+    background-color: chartreuse;
+    text-decoration: underline;
+}
+
+p:last-of-type {
+    color: purple;
+    font-weight: bold;
+}
+
+span:nth-of-type(2) {
+    background-color: yellow;
+}
+
+p:nth-last-of-type(2) {
+    background-color: orange;
+}
+
