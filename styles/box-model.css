@@ -1,0 +1,59 @@
+ body {
+     margin: 20px;
+ }
+
+ .container {
+     border: 20px solid crimson;
+ }
+
+ .box,
+ .box2 {
+     padding: 20px;
+     margin: 20px;
+ }
+
+ span {
+     border: 5px solid violet;
+     margin: 10px;
+     padding: 10px;
+     width: 50px;
+     height: 50px;
+ }
+
+ .box {
+     width: 500px;
+     height: 100px;
+     padding: 30px;
+     border: 2px solid greenyellow;
+     margin: 20px;
+     box-sizing: border-box;
+
+ }
+
+ .box2 {
+     width: 500px;
+     height: 100px;
+     padding: 30px;
+     border: 2px solid orange;
+     margin: 20px;
+     box-sizing: content-box;
+ }
+
+ .empty {
+     width: 100px;
+     height: 100px;
+     padding: 30px;
+     border: 2px solid orange;
+     margin: 30px;
+     box-sizing: content-box;
+     outline: 10px solid plum;
+ }
+
+ .empty2 {
+     width: 100px;
+     height: 100px;
+     padding: 30px;
+     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+ }
+
+ 
