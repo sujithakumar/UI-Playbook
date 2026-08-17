@@ -53,6 +53,10 @@ body>div {
     opacity: 0.5;
 }
 
+.rgba{
+    background-color: rgba(53, 232, 59, 0.5);
+}
+
 .overflow{
     height:100px;
     width:100px;

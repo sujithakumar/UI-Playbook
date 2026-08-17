@@ -1,0 +1,39 @@
+div {
+    width: 500px;
+    height: 70px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    border: 5px solid green;
+    word-wrap: break-word;
+}
+
+.top{
+    position:relative;
+    width:100px;
+    border:10px solid gold;
+    top:50px;
+}
+
+.right{
+    position:relative;
+    width:100px;
+    border:10px solid red;
+    right:50px;
+}
+
+.bottom{
+    position:relative;
+    width:100px;
+    border:10px solid blue;
+    bottom:50px;
+}
+.left{
+    position:relative;
+    width:100px;
+    border:10px solid orange;
+    left:50px;
+}
+
