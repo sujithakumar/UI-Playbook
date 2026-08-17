@@ -1,0 +1,59 @@
+.box {
+    /* position: sticky;  */
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    word-break: break-all;
+}
+
+.box1 {
+    left: 50px;
+    top: 50px;
+    z-index: auto;
+    background-color: darkgrey;
+    border: 5px solid green;
+}
+
+.box2 {
+    left: 100px;
+    top: 100px;
+    z-index: 0;
+    background-color: palegoldenrod;
+    border: 5px solid green;
+}
+
+.box3 {
+    left: 150px;
+    top: 150px;
+    z-index: 3;
+    background-color: palevioletred;
+    border: 5px solid yellow;
+}
+
+.box4 {
+    left: 200px;
+    top: 200px;
+    z-index: -2;
+    background-color: paleturquoise;
+    border: 5px solid fuchsia;
+}
+
+.box5 {
+    left: 250px;
+    top: 250px;
+    z-index: 1;
+    background-color: palegreen;
+    border: 5px solid yellow;
+}
+
+.box6 {
+    left: 300px;
+    top: 300px;
+    z-index: -1;
+    background-color: darkcyan;
+    border: 5px solid fuchsia;
+}
