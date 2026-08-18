@@ -1,0 +1,73 @@
+.box {
+    border: 5px solid crimson;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+}
+
+.box>div {
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid orange;
+}
+
+.box>span {
+    margin: 10px;
+    padding: 5px;
+    border: 3px solid pink;
+}
+
+.div-Box,
+.span-Box,
+.span-div-Box {
+    display: flex;
+}
+
+.div-Box {
+    flex-direction: row;
+    justify-content: end;
+    row-gap: 16px;
+}
+
+.span-Box {
+    flex-direction: column;
+    align-items: center;
+}
+
+.span-div-Box {
+    flex-direction: column-reverse;
+    align-items: end;
+    column-gap: 24px;
+}
+
+.box>div>div {
+    color: darkred;
+    font-weight: bold;
+    border: 1px dotted greenyellow;
+}
+
+.box>span>span {
+    color: fuchsia;
+    font-weight: bold;
+    border: 1px dotted greenyellow;
+}
+
+.parent {
+    margin:10px;
+    padding:10px;
+    width: 500px;
+    display: flex;
+     justify-content: stretch;
+    row-gap: 16px;
+    border: 3px solid yellow;
+    flex-wrap: wrap;
+}
+.child {
+    margin:10px;
+    padding:10px;
+    border: 3px solid greenyellow;
+    flex-grow: 1;
+}
+
+
+
