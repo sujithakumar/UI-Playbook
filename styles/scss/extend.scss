@@ -1,0 +1,11 @@
+.box{
+    margin :30px;
+    padding: 50px;
+    border:20px solid yellow;
+}
+
+.box1{
+    @extend .box;
+    border:10px solid seagreen;
+}
+
