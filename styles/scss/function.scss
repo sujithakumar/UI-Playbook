@@ -1,0 +1,7 @@
+@function double($value) {
+  @return $value * 2;
+}
+
+@function setcopyRight(){
+    @return "© 2026 Copyright message";
+}

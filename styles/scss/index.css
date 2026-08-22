@@ -1,0 +1,63 @@
+@charset "UTF-8";
+button {
+  padding: 20px;
+  margin: 20px;
+  color: orange;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+div {
+  width: auto;
+  margin: 50px;
+  padding: 50px;
+  border: 3px solid fuchsia;
+}
+div button {
+  background-color: pink;
+}
+div button:hover {
+  background-color: aquamarine;
+}
+div button--primary {
+  background-color: yellow;
+}
+div button.active {
+  background-color: bisque;
+}
+
+span {
+  color: grey;
+}
+
+button {
+  border-radius: 1rem;
+  box-shadow: 10px 10px 3px grey;
+  color: orange;
+}
+
+.box {
+  width: 500px;
+  height: 300px;
+}
+
+.empty {
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border: 3px solid salmon;
+}
+
+.copyRight {
+  border: 3px solid red;
+}
+.copyRight span::after {
+  content: "© 2026 Copyright message";
+  width: 60px;
+  height: 40px;
+}
+.copyRight span {
+  color: cyan;
+  font-size: 30px;
+  caret-color: darkorchid;
+}/*# sourceMappingURL=index.css.map */

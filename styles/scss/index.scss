@@ -1,0 +1,44 @@
+@use "variables" as v;
+@use "mixins";
+@use "function";
+@forward "parent";
+
+@function setSize($value) {
+    @return $value + 10;
+}
+
+span {
+    color: grey;
+}
+
+
+button {
+    @include mixins.rounded-borders;
+    color: v.$primary-color;
+}
+
+
+.box {
+    @include mixins.box(500px, 300px);
+}
+
+.empty {
+    @include mixins.setSize(10px);
+    border: 3px solid salmon;
+}
+
+.copyRight {
+    border: 3px solid red;
+
+    span::after {
+        content: function.setcopyRight();
+        width: function.double(30px);
+        height: function.double(20px);
+    }
+
+    span{
+        color: cyan;
+        font-size: setSize(20px);
+        caret-color: darkorchid;
+    }
+}

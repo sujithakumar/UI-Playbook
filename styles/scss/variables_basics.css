@@ -1,0 +1,18 @@
+.submit {
+  background-color: pink;
+  padding: 16px;
+  font-size: 18px;
+}
+
+.reset {
+  background-color: greenyellow;
+  border: 5px solid red;
+  padding: 10px;
+  font-size: 12px;
+}
+
+.custom {
+  background-color: purple;
+  padding: 30px;
+  font-size: 18px;
+}/*# sourceMappingURL=variables_basics.css.map */

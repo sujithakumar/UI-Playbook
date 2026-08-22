@@ -1,0 +1,32 @@
+$primary-color: orange;
+$spacing: 50px;
+$font-size: 20px;
+
+button {
+    padding: 20px;
+    margin: 20px;
+    color: $primary-color;
+    font-size: $font-size;
+    font-weight: bold;
+}
+
+
+div {
+    width: auto;
+    margin: $spacing;
+    padding: $spacing;
+    border: 3px solid fuchsia;
+
+    button {
+        background-color: pink;
+        &:hover {
+            background-color: aquamarine;
+        }
+        &--primary{
+            background-color: yellow;
+        }
+        &.active{
+            background-color: bisque;
+        }
+    }
+}

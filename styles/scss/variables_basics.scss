@@ -1,0 +1,22 @@
+$primary-color: pink;
+$spacing: 16px;
+$font-size: 18px;
+
+.submit {
+  background-color: $primary-color;
+  padding: $spacing;
+  font-size: $font-size;
+}
+
+.reset{
+    background-color: greenyellow;
+    border: 5px solid red;
+    padding:10px;
+    font-size :12px;
+}
+
+.custom {
+  background-color: purple;
+  padding:30px;
+  font-size: $font-size;
+}

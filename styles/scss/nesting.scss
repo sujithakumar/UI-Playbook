@@ -1,0 +1,27 @@
+$primary-color: pink;
+
+.navbar {
+    border: 10px solid $primary-color;
+
+    .menu {
+        margin: 5px;
+        display:flex;
+
+        .menu-item {
+            padding: 15px;
+            margin: 10px;
+            caret-color: aqua;
+            list-style-type: none;
+
+            a {
+                font-size: 25px;
+                color: $primary-color;
+                background-color: aquamarine;
+            }
+
+            a:hover{
+                cursor:help;
+            }
+        }
+    }
+}

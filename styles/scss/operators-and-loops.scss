@@ -1,0 +1,58 @@
+$base-size: 50px;
+$spacing: 20px;
+$border: 4px;
+
+@mixin divProperties {
+    margin: $spacing;
+    color: blueviolet;
+    font-size: $spacing;
+    padding: $spacing;
+    border: $border solid pink;
+}
+
+.container {
+    @include divProperties();
+
+    .box {
+        @include divProperties();
+        width: $base-size;
+        height: $base-size;
+
+        @for $i from 1 through 5 {
+            &-#{$i} {
+                width: $base-size + $i * 15;
+                height: $base-size + $i + 10;
+
+                @if $i ==3 {
+                    width: $base-size + $i * 20;
+                    height: $base-size + $i + 20;
+                    background-color: lightgreen;
+                }
+            }
+        }
+        //styling first 3 boxes
+        $i: 1;
+        @while $i <=3 {
+            &-#{$i} {
+                box-shadow: 10px 10px 30px;
+            }
+            $i: $i + 1;
+        }
+    }
+
+    .box1 {
+        border: $border solid yellow;
+        width: $base-size + 10;
+        height: $base-size - 10;
+    }
+
+    .box3 {
+        border: $border solid orange;
+        width: $base-size * 2;
+        height: $base-size / 2;
+    }
+
+    .box2 {
+        width: calc($base-size + $spacing);
+    }
+}

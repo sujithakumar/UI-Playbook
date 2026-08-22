@@ -1,0 +1,16 @@
+@mixin rounded-borders{
+    border-radius:1rem;
+    box-shadow:10px 10px 3px grey;
+}
+
+@mixin box($width, $height){
+    width: $width;
+    height: $height;
+}
+
+@mixin setSize($value2, $value1:50px,  $value3:50px){
+    width : $value1;
+    height: $value3;
+    padding: $value2;
+}
+

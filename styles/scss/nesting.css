@@ -1,0 +1,21 @@
+.navbar {
+  border: 10px solid pink;
+}
+.navbar .menu {
+  margin: 5px;
+  display: flex;
+}
+.navbar .menu .menu-item {
+  padding: 15px;
+  margin: 10px;
+  caret-color: aqua;
+  list-style-type: none;
+}
+.navbar .menu .menu-item a {
+  font-size: 25px;
+  color: pink;
+  background-color: aquamarine;
+}
+.navbar .menu .menu-item a:hover {
+  cursor: help;
+}/*# sourceMappingURL=nesting.css.map */
